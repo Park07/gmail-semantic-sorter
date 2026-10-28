@@ -1,0 +1,53 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+client_secret*.json
+google/
+secrets/
+config.local.*
+
+# Private mail, cached models and vectors, and runtime state
+data/
+state/
+private/
+models/
+cache/
+.cache/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Category files can contain real subjects, addresses, and examples
+categories.yaml
+categories.yml
+categories.local.*
+categories.proposed.*
+proposals/
+
+# Reports, exports, and logs can contain personal data
+reports/
+exports/
+logs/
+*.log
+
+# Python and local tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.DS_Store
