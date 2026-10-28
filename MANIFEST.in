@@ -1,0 +1,3 @@
+include README.md
+include sorter.example.toml
+recursive-include tests *.py

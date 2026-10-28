@@ -8,6 +8,7 @@ client_secret*.json
 google/
 secrets/
 config.local.*
+sorter.toml
 
 # Private mail, cached models and vectors, and runtime state
 data/
@@ -51,3 +52,4 @@ dist/
 .coverage.*
 htmlcov/
 .DS_Store
+.sorter-*
