@@ -1,0 +1,12 @@
+query = "newer_than:365d -in:chats -in:sent -in:drafts"
+ollama_url = "http://127.0.0.1:11434"
+embedding_model = "nomic-embed-text:latest"
+chat_model = "qwen3.5:0.8b"
+batch_size = 16
+context_length = 4096
+min_cluster_size = 15
+min_samples = 5
+similarity_threshold = 0.88
+similarity_margin = 0.1
+fallback_similarity_floor = 0.5
+llm_confidence_threshold = 0.85
